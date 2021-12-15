@@ -19,7 +19,7 @@ public class AccountHolder {
 		SavingsAccount.modifyInterestRate(setAnnualInterestRate);		// modifying the interest rate
 		
 		System.out.println("Monthly savings for saver1 with Annual Interest = 5% "+saver1.calculateMonthlyInterest());		// calculating and printing the savings with modified rate
-		System.out.println("Monthly savings for saver1 with Annual Interest = 5% "+saver2.calculateMonthlyInterest());
+		System.out.println("Monthly savings for saver2 with Annual Interest = 5% "+saver2.calculateMonthlyInterest());
 
 	}
 
